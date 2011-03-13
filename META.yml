@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               WWW-RobotRules
-version:            6.00
+version:            6.01
 abstract:           database of robots.txt-derived permissions
 author:
     - Gisle Aas <gisle@activestate.com>
@@ -17,7 +17,7 @@ requires:
     URI:          1.10
 resources:
     MailingList:  mailto:libwww@perl.org
-    repository:   http://github.com/gisle/libwww-perl
+    repository:   http://github.com/gisle/libwww-perl/tree/WWW-RobotRules/master
 no_index:
     directory:
         - t
