@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               WWW-RobotRules
-version:            6.01
+version:            6.02
 abstract:           database of robots.txt-derived permissions
 author:
     - Gisle Aas <gisle@activestate.com>
@@ -13,16 +13,16 @@ build_requires:
 requires:
     AnyDBM_File:  0
     Fcntl:        0
-    perl:         5.008008
+    perl:         5.008001
     URI:          1.10
 resources:
     MailingList:  mailto:libwww@perl.org
-    repository:   http://github.com/gisle/libwww-perl/tree/WWW-RobotRules/master
+    repository:   http://github.com/gisle/www-robotrules
 no_index:
     directory:
         - t
         - inc
-generated_by:       ExtUtils::MakeMaker version 6.56
+generated_by:       ExtUtils::MakeMaker version 6.57_05
 meta-spec:
     url:      http://module-build.sourceforge.net/META-spec-v1.4.html
     version:  1.4

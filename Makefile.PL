@@ -1,6 +1,6 @@
 #!perl -w
 
-require 5.008008;
+require 5.008001;
 use strict;
 use ExtUtils::MakeMaker;
 
@@ -10,7 +10,7 @@ WriteMakefile(
     ABSTRACT_FROM => 'lib/WWW/RobotRules.pm',
     AUTHOR => 'Gisle Aas <gisle@activestate.com>',
     LICENSE => "perl",
-    MIN_PERL_VERSION => 5.008008,
+    MIN_PERL_VERSION => 5.008001,
     PREREQ_PM => {
         'AnyDBM_File' => 0,
         'Fcntl' => 0,
@@ -18,7 +18,7 @@ WriteMakefile(
     },
     META_MERGE => {
 	resources => {
-            repository => 'http://github.com/gisle/libwww-perl/tree/WWW-RobotRules/master',
+            repository => 'http://github.com/gisle/www-robotrules',
 	    MailingList => 'mailto:libwww@perl.org',
         }
     },
